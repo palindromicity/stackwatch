@@ -114,7 +114,6 @@ import org.apache.commons.lang3.time.StopWatch;
  * thread
  * </p>
  *
- * @since 3.8
  */
 public class StackWatch<N, T> {
 
