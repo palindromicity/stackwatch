@@ -1,4 +1,5 @@
-# StackWatch
+[![Build Status](https://travis-ci.org/palindromicity/stackwatch.svg?branch=master)](https://travis-ci.org/palindromicity/stackwatch)
+# StackWatch 
   The `StackWatch`, provides a wrapper around the `StopWatch` for creating multiple and
   possibly nested named timings.
   While the `StopWatch` provides functionality to time the length of operations, there is no
