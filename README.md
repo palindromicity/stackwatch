@@ -78,3 +78,28 @@
  
  
 This class is not thread safe, and is meant to track timings across multiple calls on the same thread
+
+
+```xml
+<repositories>
+  <repository>
+    <id>bintray</id>
+    <url>http://dl.bintray.com/palndromicity/stackwatch</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+</repositories>
+```
+
+```xml
+<dependency>
+  <groupId>com.github.palindromicity</groupId>
+  <artifactId>stackwatch</artifactId>
+  <version>0.0.1</version>
+  <type>pom</type>
+</dependency>
+```
