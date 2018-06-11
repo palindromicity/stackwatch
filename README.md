@@ -47,8 +47,9 @@
        watch.startTiming("OneTwo", "tagThree");
        watch.stopTiming();
      }
-     ```
+ ```
   The example above would result in the following output.
+  
   ```bash
      Visit level 0 timing: OuterFunction path: [OuterFunction] time: 316032287ns
      Visit level 1 timing: One path: [OuterFunction, One] time: 156596831ns
@@ -56,6 +57,7 @@
      Visit level 3 timing: OneTwo path: [OuterFunction, One, OneOne, OneTwo] time: 52851139ns
    ``` 
   `StackWatch` also has a static factory method to create and start an instance.
+   
    ```java
      private void outerFunction() {
        try {
@@ -72,6 +74,7 @@
          });
        } catch (Exception e){}
      }
-    ```
+   ```
  
- > This class is not thread safe, and is meant to track timings across multiple calls on the same thread
+ 
+This class is not thread safe, and is meant to track timings across multiple calls on the same thread
